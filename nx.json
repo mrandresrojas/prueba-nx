@@ -25,6 +25,16 @@
     "test-e2e": {
       "tags": [],
       "implicitDependencies": ["test"]
+    },
+    "my-angular-app": {
+      "tags": []
+    },
+    "my-angular-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["my-angular-app"]
+    },
+    "api": {
+      "tags": []
     }
   }
 }
